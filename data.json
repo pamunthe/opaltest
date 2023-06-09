@@ -21,6 +21,13 @@
         "ip": "8.8.8.8"
       }
     },
+    "ellen": {
+      "roles": ["customer"],
+      "location": {
+        "country": "no",
+        "ip": "193.212.1.11"
+      }
+    },
     "eve": {
       "roles": ["customer"],
       "location": {
