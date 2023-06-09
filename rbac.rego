@@ -44,6 +44,7 @@ allow {
 #}
 
 # Allow the action if the user is granted permission to perform the action.
+# Allow if Country = NO
 allow {
 	# Find permissions for the user.
 	some permission
@@ -57,7 +58,7 @@ allow {
 	country := data.users[input.user].location.country
 	country == "NO" 
 }
-
+# Allow if Country = US
 allow {
 	# Find permissions for the user.
 	some permission
