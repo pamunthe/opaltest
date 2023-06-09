@@ -26,6 +26,7 @@
       "location": {
         "country": "US",
         "ip": "8.8.8.8"
+        }
       },
       "ellen": {
       "roles": ["customer"],
